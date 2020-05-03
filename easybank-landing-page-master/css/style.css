@@ -61,6 +61,11 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-items: center;
+}
+
+.nav-logo {
+    padding-top: 5px;
 }
 
 .main-nav .primary-btn {
