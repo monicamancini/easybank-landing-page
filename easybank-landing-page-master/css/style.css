@@ -42,11 +42,12 @@ ul {
     padding: 15px 34px;
     background: var(--primary-green) linear-gradient(to right, var(--primary-green), var(--primary-cyan));
     font-size: 14px;
+    font-weight: 400;
     cursor: pointer;
 }
 
 .primary-btn:hover {
-    background: var(--primary-green) linear-gradient(to right, var(--primary-green), var(--primary-cyan));
+    background: var(--primary-green) linear-gradient(to right, hsl(135, 65%,75%), hsl(191,70%,55%));
 }
 
 .header {
@@ -82,6 +83,10 @@ ul {
 
 .main-nav-link {
     position: relative;
+}
+
+.main-nav-link:hover {
+    color: var(--primary-blue);
 }
 
 .main-nav-link:hover:after {
@@ -126,15 +131,16 @@ ul {
 }
 
 .hero-title {
-    font-size: 54px;
+    font-size: 45px;
     font-weight: 400;
     color: var(--primary-blue);
 }
 
 .hero-subtitle {
     color: var(--neutral-blue);
-    margin: 30px 0 40px 0;
+    margin: 30px 0 50px 0;
     line-height: 1.5;
+    font-size: 15px;
 }
 
 .features {
@@ -167,11 +173,7 @@ ul {
 
 .feature {
     flex-basis: auto;
-    padding: 0 30px;
-}
-
-.feature:first-of-type {
-       padding-left: 0; 
+    padding: 0 30px 0 0;
 }
 
 .feature-icon {
@@ -190,7 +192,8 @@ ul {
     margin-top: 32px;
     color: var(--neutral-blue);
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 15px;
+    padding-right: 10px;
 }
 
 .articles {
@@ -206,7 +209,7 @@ ul {
 
 .article-card {
     flex-basis: auto;
-    padding: 0 15px;
+    padding: 0 15px 0 0;
 }
 
 .article-author {
@@ -320,11 +323,11 @@ ul {
     }
 
     .hero {
-        background: var(--light-grey) url(../images/bg-intro-mobile.svg) no-repeat;
-        background-size:  100% auto;
+        background: var(--light-grey) url(../images/bg-intro-mobile.svg) no-repeat right top;
+        background-size: 375px;
         height: 100%;
         position: relative;
-        padding: 340px 0 90px 0;
+        padding: 380px 0 90px 0;
     }
 
     .hero-image {
@@ -333,9 +336,9 @@ ul {
 
     .mockups {
         position: absolute;
-        width: 300px;
+        width: 375px;
         height: auto;
-        transform: translate(-50%);
+        transform: translate(-55%);
     }
 
     .hero-content {
@@ -343,18 +346,8 @@ ul {
         text-align: center;
     }
 
-    .hero-title {
-        font-size: 28px;
-    }
-
     .section-title {
         text-align: center;
-    }
-
-    .features-header {
-        width: 100%;
-        text-align: center;
-        font-size: 16px;
     }
 
     .features-list {
@@ -412,6 +405,7 @@ ul {
 
     .feature {
         flex-basis: 50%;
+        margin-top: 60px;
     }
 
     .articles-list {
@@ -420,6 +414,7 @@ ul {
 
     .article-card {
         flex-basis: 50%;
+        margin-top: 60px;
     }
 
     .two-col {
@@ -449,6 +444,12 @@ ul {
 
     body {
         position: relative;
+    }
+
+    .features-header {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
     }
 
     .main-nav-list {
