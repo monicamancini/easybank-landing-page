@@ -51,7 +51,7 @@ ul {
 }
 
 .header {
-    padding: 35px 0;
+    padding: 18px 0;
     background-color: var(--white);
     position: relative;
     z-index: 1000;
@@ -101,7 +101,7 @@ ul {
     height: 5px;
     position: absolute;
     left: 0;
-    top: 62px;
+    top: 45px;
 }
 
 .mobile-toggle:hover {
@@ -136,7 +136,7 @@ ul {
 }
 
 .hero-title {
-    font-size: 45px;
+    font-size: 54px;
     font-weight: 400;
     color: var(--primary-blue);
 }
@@ -268,7 +268,16 @@ ul {
 
 .footer .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.footer-col{
+    width: 32%;
+}
+
+.last {
+    margin-left: auto;
+    text-align: right;
 }
 
 .two-col {
