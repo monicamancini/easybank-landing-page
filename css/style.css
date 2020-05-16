@@ -318,7 +318,8 @@ ul {
 }
 
 .attribution { 
-    font-size: 11px; text-align: center;
+    font-size: 11px; 
+    text-align: center;
     background-color: var(--primary-blue);
     padding: 40px 0 10px;
     color: var(--neutral-blue);
@@ -326,7 +327,6 @@ ul {
 
 .attribution a { 
     color: var(--light-grey);
-    
     text-decoration: none;
 } 
 
@@ -393,6 +393,7 @@ ul {
     .footer-col {
         margin-top: 20px;
         text-align: center;
+        width: 100%;
     }
 
     .footer-col:first-of-type {
@@ -431,9 +432,6 @@ ul {
         margin-top: 60px;
     }
 
-    .two-col {
-        column-count: 1;
-    }
 }
 
 @media screen and (min-width: 768px) {
